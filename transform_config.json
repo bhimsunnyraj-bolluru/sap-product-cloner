@@ -1,0 +1,30 @@
+{
+  "name": "Pepsi to Coke Clone",
+  "description": "Example transformation from Pepsi (461) to Coke (500)",
+  "source_product": "461",
+  "fields": {
+    "Product": "500",
+    "ProductOldID": "",
+    "GlobalTradeItemNumber": "5449000000996",
+    "IndustryStandardName": "Coca-Cola"
+  },
+  "nested": {
+    "to_Plant": {
+      "Plant": "1710"
+    },
+    "to_SalesDelivery": {
+      "ProductSalesOrg": "1710",
+      "ProductDistributionChnl": "10"
+    },
+    "to_Valuation": {
+      "ValuationArea": "1710",
+      "ValuationClass": "7920",
+      "StandardPrice": "12.00"
+    }
+  },
+  "notes": [
+    "Preserves all Plant, Sales, and Valuation relationships",
+    "Updates key identifiers to make product unique",
+    "Ready for SAP POST after transformation"
+  ]
+}

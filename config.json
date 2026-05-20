@@ -1,0 +1,9 @@
+{
+  "sap_base_url": "https://CLOUD9.WAY2ERP.US:44300",
+  "sap_api_path": "/sap/opu/odata/sap/API_PRODUCT_SRV",
+  "username": "YOUR_SAP_USERNAME",
+  "password": "YOUR_SAP_PASSWORD",
+  "dry_run": true,
+  "verify_ssl": false,
+  "log_level": "INFO"
+}
