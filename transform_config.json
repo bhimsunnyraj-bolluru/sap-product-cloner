@@ -1,30 +1,53 @@
 {
   "name": "Pepsi to Coke Clone",
-  "description": "Example transformation from Pepsi (461) to Coke (500)",
+  "description": "Example transformation from Pepsi (461) to a SAP-numbered Coke product",
   "source_product": "461",
+  "product_description": "Coca-Cola",
+  "remove_fields": [
+    "Product"
+  ],
+  "supply_planning": {
+    "Plant": "1710",
+    "ProcurementType": "E",
+    "MRPType": "PD",
+    "MRPResponsible": "001",
+    "LotSizingProcedure": "EX"
+  },
+  "storage_location": {
+    "Plant": "1710",
+    "StorageLocation": "171A"
+  },
   "fields": {
-    "Product": "500",
     "ProductOldID": "",
+    "Division": "00",
     "GlobalTradeItemNumber": "5449000000996",
     "IndustryStandardName": "Coca-Cola"
   },
   "nested": {
     "to_Plant": {
-      "Plant": "1710"
+      "Plant": "1710",
+      "ProcurementType": "E"
     },
     "to_SalesDelivery": {
       "ProductSalesOrg": "1710",
       "ProductDistributionChnl": "10"
     },
+    "to_ProductSalesTax": {
+      "Country": "US",
+      "TaxCategory": "UTXJ",
+      "TaxClassification": "1"
+    },
     "to_Valuation": {
       "ValuationArea": "1710",
+      "PriceDeterminationControl": "2",
       "ValuationClass": "7920",
       "StandardPrice": "12.00"
     }
   },
   "notes": [
     "Preserves all Plant, Sales, and Valuation relationships",
-    "Updates key identifiers to make product unique",
+    "Lets SAP assign the new product number",
+    "Sets Plant 1710, Sales Org 1710, and Distribution Channel 10",
     "Ready for SAP POST after transformation"
   ]
 }

@@ -1,0 +1,50 @@
+{
+  "d": {
+    "Product": "461",
+    "ProductType": "FERT",
+    "BaseUnit": "EA",
+    "ProductOldID": "PEPSI-461",
+    "ProductDescription": "Pepsi 12oz Can",
+    "GlobalTradeItemNumber": "0123456789012",
+    "IndustryStandardName": "Pepsi",
+    "CreationDate": "/Date(1714521600000)/",
+    "to_Plant": {
+      "results": [
+        {
+          "Product": "461",
+          "Plant": "1010",
+          "PurchasingGroup": "001"
+        }
+      ]
+    },
+    "to_ProductUnitsOfMeasure": {
+      "results": [
+        {
+          "Product": "461",
+          "AlternativeUnit": "EA",
+          "QuantityNumerator": "1",
+          "QuantityDenominator": "1"
+        }
+      ]
+    },
+    "to_SalesDelivery": {
+      "results": [
+        {
+          "Product": "461",
+          "ProductSalesOrg": "1010",
+          "ProductDistributionChnl": "10"
+        }
+      ]
+    },
+    "to_Valuation": {
+      "results": [
+        {
+          "Product": "461",
+          "ValuationArea": "1010",
+          "ValuationClass": "7920",
+          "StandardPrice": "10.00"
+        }
+      ]
+    }
+  }
+}

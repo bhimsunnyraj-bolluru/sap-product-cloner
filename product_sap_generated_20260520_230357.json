@@ -1,0 +1,416 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')",
+      "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')",
+      "type": "API_PRODUCT_SRV.A_ProductType"
+    },
+    "ProductType": "FERT",
+    "CrossPlantStatus": "",
+    "CrossPlantStatusValidityDate": null,
+    "CreationDate": "/Date(1692316800000)/",
+    "CreatedByUser": "XUSER6",
+    "LastChangeDate": "/Date(1777852800000)/",
+    "LastChangedByUser": "SUNNY",
+    "LastChangeDateTime": "/Date(1777934772000+0000)/",
+    "IsMarkedForDeletion": false,
+    "ProductOldID": "",
+    "GrossWeight": "1.000",
+    "PurchaseOrderQuantityUnit": "",
+    "SourceOfSupply": "",
+    "WeightUnit": "KG",
+    "NetWeight": "1.000",
+    "CountryOfOrigin": "",
+    "CompetitorID": "",
+    "ProductGroup": "",
+    "BaseUnit": "EA",
+    "ItemCategoryGroup": "NORM",
+    "ProductHierarchy": "",
+    "Division": "00",
+    "VarblPurOrdUnitIsActive": "",
+    "VolumeUnit": "",
+    "MaterialVolume": "0.000",
+    "ANPCode": "0",
+    "Brand": "",
+    "ProcurementRule": "",
+    "ValidityStartDate": null,
+    "LowLevelCode": "",
+    "ProdNoInGenProdInPrepackProd": "",
+    "SerialIdentifierAssgmtProfile": "",
+    "SizeOrDimensionText": "",
+    "IndustryStandardName": "",
+    "ProductStandardID": "",
+    "InternationalArticleNumberCat": "",
+    "ProductIsConfigurable": false,
+    "IsBatchManagementRequired": true,
+    "ExternalProductGroup": "",
+    "CrossPlantConfigurableProduct": "",
+    "SerialNoExplicitnessLevel": "",
+    "ProductManufacturerNumber": "",
+    "ManufacturerNumber": "",
+    "ManufacturerPartProfile": "",
+    "QltyMgmtInProcmtIsActive": false,
+    "IndustrySector": "M",
+    "ChangeNumber": "",
+    "MaterialRevisionLevel": "",
+    "HandlingIndicator": "",
+    "WarehouseProductGroup": "",
+    "WarehouseStorageCondition": "",
+    "StandardHandlingUnitType": "",
+    "SerialNumberProfile": "",
+    "AdjustmentProfile": "",
+    "PreferredUnitOfMeasure": "",
+    "IsPilferable": false,
+    "IsRelevantForHzdsSubstances": false,
+    "QuarantinePeriod": "0",
+    "TimeUnitForQuarantinePeriod": "",
+    "QualityInspectionGroup": "",
+    "AuthorizationGroup": "",
+    "DocumentIsCreatedByCAD": false,
+    "HandlingUnitType": "",
+    "HasVariableTareWeight": false,
+    "MaximumPackagingLength": "0.000",
+    "MaximumPackagingWidth": "0.000",
+    "MaximumPackagingHeight": "0.000",
+    "UnitForMaxPackagingDimensions": "",
+    "to_Description": {
+      "results": [
+        {
+          "Language": "EN",
+          "ProductDescription": "Pepsi 1L"
+        }
+      ]
+    },
+    "to_Plant": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')",
+            "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')",
+            "type": "API_PRODUCT_SRV.A_ProductPlantType"
+          },
+          "Product": "461",
+          "Plant": "1710",
+          "PurchasingGroup": "",
+          "CountryOfOrigin": "",
+          "RegionOfOrigin": "",
+          "ProductionInvtryManagedLoc": "",
+          "ProfileCode": "",
+          "ProfileValidityStartDate": null,
+          "AvailabilityCheckType": "SR",
+          "FiscalYearVariant": "",
+          "PeriodType": "M",
+          "ProfitCenter": "US10_C4_1",
+          "Commodity": "",
+          "GoodsReceiptDuration": "0",
+          "MaintenanceStatusName": "DALQBV",
+          "IsMarkedForDeletion": false,
+          "MRPType": "PD",
+          "MRPResponsible": "001",
+          "ABCIndicator": "",
+          "MinimumLotSizeQuantity": "0",
+          "MaximumLotSizeQuantity": "0",
+          "FixedLotSizeQuantity": "0",
+          "ConsumptionTaxCtrlCode": "",
+          "IsCoProduct": false,
+          "ProductIsConfigurable": "",
+          "StockDeterminationGroup": "",
+          "StockInTransferQuantity": "0",
+          "StockInTransitQuantity": "0",
+          "HasPostToInspectionStock": false,
+          "IsBatchManagementRequired": true,
+          "SerialNumberProfile": "",
+          "IsNegativeStockAllowed": false,
+          "GoodsReceiptBlockedStockQty": "0",
+          "HasConsignmentCtrl": "",
+          "FiscalYearCurrentPeriod": "2023",
+          "FiscalMonthCurrentPeriod": "6",
+          "ProcurementType": "E",
+          "IsInternalBatchManaged": true,
+          "ProductCFOPCategory": "",
+          "ProductIsExciseTaxRelevant": false,
+          "BaseUnit": "EA",
+          "ConfigurableProduct": "",
+          "GoodsIssueUnit": "",
+          "MaterialFreightGroup": "",
+          "OriginalBatchReferenceMaterial": "",
+          "OriglBatchManagementIsRequired": "",
+          "ProductIsCriticalPrt": false,
+          "ProductLogisticsHandlingGroup": "",
+          "to_PlantMRPArea": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_PlantMRPArea"
+            }
+          },
+          "to_PlantQualityMgmt": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_PlantQualityMgmt"
+            }
+          },
+          "to_PlantSales": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_PlantSales"
+            }
+          },
+          "to_PlantStorage": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_PlantStorage"
+            }
+          },
+          "to_PlantText": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_PlantText"
+            }
+          },
+          "to_ProdPlantInternationalTrade": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_ProdPlantInternationalTrade"
+            }
+          },
+          "to_ProductPlantCosting": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_ProductPlantCosting"
+            }
+          },
+          "to_ProductPlantForecast": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_ProductPlantForecast"
+            }
+          },
+          "to_ProductPlantProcurement": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_ProductPlantProcurement"
+            }
+          },
+          "to_ProductSupplyPlanning": {
+            "Plant": "1710",
+            "ProcurementType": "E",
+            "MRPType": "PD",
+            "MRPResponsible": "001",
+            "LotSizingProcedure": "EX"
+          },
+          "to_ProductWorkScheduling": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductPlant(Product='461',Plant='1710')/to_ProductWorkScheduling"
+            }
+          },
+          "to_StorageLocation": {
+            "results": [
+              {
+                "Plant": "1710",
+                "StorageLocation": "171A"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "to_ProductBasicText": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductBasicText"
+      }
+    },
+    "to_ProductInspectionText": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductInspectionText"
+      }
+    },
+    "to_ProductProcurement": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductProcurement"
+      }
+    },
+    "to_ProductPurchaseText": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductPurchaseText"
+      }
+    },
+    "to_ProductQualityMgmt": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductQualityMgmt"
+      }
+    },
+    "to_ProductSales": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductSales"
+      }
+    },
+    "to_ProductSalesTax": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesTax(Product='461',Country='US',TaxCategory='UTXJ',TaxClassification='1')",
+            "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesTax(Product='461',Country='US',TaxCategory='UTXJ',TaxClassification='1')",
+            "type": "API_PRODUCT_SRV.A_ProductSalesTaxType"
+          },
+          "Product": "461",
+          "Country": "US",
+          "TaxCategory": "UTXJ",
+          "TaxClassification": "1"
+        }
+      ]
+    },
+    "to_ProductStorage": {
+      "__deferred": {
+        "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_Product('461')/to_ProductStorage"
+      }
+    },
+    "to_ProductUnitsOfMeasure": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductUnitsOfMeasure(Product='461',AlternativeUnit='EA')",
+            "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductUnitsOfMeasure(Product='461',AlternativeUnit='EA')",
+            "type": "API_PRODUCT_SRV.A_ProductUnitsOfMeasureType"
+          },
+          "Product": "461",
+          "AlternativeUnit": "EA",
+          "QuantityNumerator": "1",
+          "QuantityDenominator": "1",
+          "MaterialVolume": "0.000",
+          "VolumeUnit": "",
+          "GrossWeight": "1.000",
+          "WeightUnit": "KG",
+          "GlobalTradeItemNumber": "",
+          "GlobalTradeItemNumberCategory": "",
+          "UnitSpecificProductLength": "0.000",
+          "UnitSpecificProductWidth": "0.000",
+          "UnitSpecificProductHeight": "0.000",
+          "ProductMeasurementUnit": "",
+          "LowerLevelPackagingUnit": "",
+          "RemainingVolumeAfterNesting": "0",
+          "MaximumStackingFactor": 0,
+          "CapacityUsage": "0.000",
+          "BaseUnit": "EA",
+          "to_InternationalArticleNumber": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductUnitsOfMeasure(Product='461',AlternativeUnit='EA')/to_InternationalArticleNumber"
+            }
+          }
+        }
+      ]
+    },
+    "to_SalesDelivery": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesDelivery(Product='461',ProductSalesOrg='1710',ProductDistributionChnl='10')",
+            "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesDelivery(Product='461',ProductSalesOrg='1710',ProductDistributionChnl='10')",
+            "type": "API_PRODUCT_SRV.A_ProductSalesDeliveryType"
+          },
+          "Product": "461",
+          "ProductSalesOrg": "1710",
+          "ProductDistributionChnl": "10",
+          "MinimumOrderQuantity": "0",
+          "SupplyingPlant": "",
+          "PriceSpecificationProductGroup": "",
+          "AccountDetnProductGroup": "",
+          "DeliveryNoteProcMinDelivQty": "0",
+          "ItemCategoryGroup": "NORM",
+          "DeliveryQuantityUnit": "",
+          "DeliveryQuantity": "0.000",
+          "ProductSalesStatus": "",
+          "ProductSalesStatusValidityDate": null,
+          "SalesMeasureUnit": "",
+          "IsMarkedForDeletion": false,
+          "ProductHierarchy": "",
+          "FirstSalesSpecProductGroup": "",
+          "SecondSalesSpecProductGroup": "",
+          "ThirdSalesSpecProductGroup": "",
+          "FourthSalesSpecProductGroup": "",
+          "FifthSalesSpecProductGroup": "",
+          "MinimumMakeToOrderOrderQty": "0",
+          "BaseUnit": "EA",
+          "LogisticsStatisticsGroup": "",
+          "VolumeRebateGroup": "",
+          "ProductCommissionGroup": "",
+          "CashDiscountIsDeductible": true,
+          "PricingReferenceProduct": "",
+          "RoundingProfile": "",
+          "ProductUnitGroup": "",
+          "VariableSalesUnitIsNotAllowed": false,
+          "ProductHasAttributeID01": false,
+          "ProductHasAttributeID02": false,
+          "ProductHasAttributeID03": false,
+          "ProductHasAttributeID04": false,
+          "ProductHasAttributeID05": false,
+          "ProductHasAttributeID06": false,
+          "ProductHasAttributeID07": false,
+          "ProductHasAttributeID08": false,
+          "ProductHasAttributeID09": false,
+          "ProductHasAttributeID10": false,
+          "to_SalesTax": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesDelivery(Product='461',ProductSalesOrg='1710',ProductDistributionChnl='10')/to_SalesTax"
+            }
+          },
+          "to_SalesText": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductSalesDelivery(Product='461',ProductSalesOrg='1710',ProductDistributionChnl='10')/to_SalesText"
+            }
+          }
+        }
+      ]
+    },
+    "to_Valuation": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')",
+            "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')",
+            "type": "API_PRODUCT_SRV.A_ProductValuationType"
+          },
+          "Product": "461",
+          "ValuationArea": "1710",
+          "ValuationType": "",
+          "ValuationClass": "7920",
+          "PriceDeterminationControl": "2",
+          "StandardPrice": "10.00",
+          "PriceUnitQty": "1",
+          "InventoryValuationProcedure": "V",
+          "IsMarkedForDeletion": false,
+          "MovingAveragePrice": "10.00",
+          "ValuationCategory": "",
+          "ProductUsageType": "",
+          "ProductOriginType": "",
+          "IsProducedInhouse": false,
+          "ProdCostEstNumber": "100011100",
+          "ProjectStockValuationClass": "",
+          "ValuationClassSalesOrderStock": "",
+          "PlannedPrice1InCoCodeCrcy": "0.00",
+          "PlannedPrice2InCoCodeCrcy": "0.00",
+          "PlannedPrice3InCoCodeCrcy": "0.00",
+          "FuturePlndPrice1ValdtyDate": null,
+          "FuturePlndPrice2ValdtyDate": null,
+          "FuturePlndPrice3ValdtyDate": null,
+          "TaxBasedPricesPriceUnitQty": "0",
+          "PriceLastChangeDate": null,
+          "PlannedPrice": "0.00",
+          "PrevInvtryPriceInCoCodeCrcy": "0.00",
+          "Currency": "USD",
+          "BaseUnit": "EA",
+          "to_MLAccount": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')/to_MLAccount"
+            }
+          },
+          "to_MLPrices": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')/to_MLPrices"
+            }
+          },
+          "to_ValuationAccount": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')/to_ValuationAccount"
+            }
+          },
+          "to_ValuationCosting": {
+            "__deferred": {
+              "uri": "https://192.168.1.99:44300/sap/opu/odata/sap/API_PRODUCT_SRV/A_ProductValuation(Product='461',ValuationArea='1710',ValuationType='')/to_ValuationCosting"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
